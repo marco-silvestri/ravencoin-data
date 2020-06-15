@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'HomeController@index')->name('home');
-Route::get('/', 'CoinController@getStats')->name('coinstats');
+Route::get('/coinstats', 'CoinController@getStats')->name('coinstats');
